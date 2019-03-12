@@ -6,7 +6,6 @@
         <item name="colorPrimary">@color/blue700</item>
         <item name="colorPrimaryDark">@color/blue700Dark</item>
         <item name="colorAccent">@color/blueGray300</item>
-        <item name="colorOnSurface">@color/white</item>
 
         <item name="textAppearanceHeadline6">@style/Headline6</item>
         <item name="textAppearanceCaption">@style/Caption</item>
