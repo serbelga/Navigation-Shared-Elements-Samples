@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/app_navigation"
+            app:startDestination="@id/parentFragment">
+
+    <fragment android:id="@+id/parentFragment"
+              android:name="com.example.sergiobelda.navigationsharedelements.ParentFragment"
+              android:label="fragment_parent" tools:layout="@layout/fragment_parent">
+        <action android:id="@+id/detailAction" app:destination="@id/detailFragment"/>
+    </fragment>
+    <fragment android:id="@+id/detailFragment"
+              android:name="com.example.sergiobelda.navigationsharedelements.DetailFragment"
+              android:label="fragment_detail" tools:layout="@layout/fragment_detail"/>
+</navigation>

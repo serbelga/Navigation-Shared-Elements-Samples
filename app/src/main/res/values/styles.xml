@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blue700</item>
+        <item name="colorPrimaryDark">@color/blue700Dark</item>
+        <item name="colorAccent">@color/blueGray300</item>
+        <item name="colorOnSurface">@color/white</item>
+
+        <item name="textAppearanceHeadline6">@style/Headline6</item>
+        <item name="textAppearanceCaption">@style/Caption</item>
+    </style>
+
+    <style name="Headline6" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="fontFamily">@font/montserrat</item>
+    </style>
+
+    <style name="Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">@font/montserrat</item>
+    </style>
+
+</resources>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">NavigationSharedElements</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id odio magna. Fusce mi risus, fermentum et sem nec, hendrerit bibendum ipsum. Donec condimentum eros in turpis gravida, porta cursus elit volutpat. Curabitur felis nisi, pretium sit amet porttitor et, tristique sit amet sapien. Suspendisse ornare, purus id pretium vehicula, massa libero bibendum libero, ac lobortis diam nunc id enim. Donec sed ex gravida urna porta porttitor. Integer tortor augue, suscipit ac pharetra ut, malesuada sit amet lorem. Cras dictum feugiat molestie.
+
+        In quis nunc nec quam egestas ultricies a et nisl. Proin velit turpis, mattis non lorem non, fringilla molestie ante. Donec molestie sem vel leo elementum, vitae vehicula leo euismod. Nam rhoncus ac nibh sit amet rutrum. Sed at venenatis nibh. Aliquam nibh nunc, hendrerit id tellus eget, faucibus accumsan quam. Integer pellentesque maximus lacinia. Maecenas dui nisi, congue nec sodales nec, venenatis ultricies sem. Nulla pharetra ipsum ut gravida ultrices. Nam ultricies dolor at mi volutpat suscipit. Aliquam dapibus, risus sed tincidunt maximus, ante odio consequat massa, et euismod lectus risus efficitur quam. Vivamus finibus sodales mollis.
+
+        Cras nec eros vitae sem molestie ullamcorper vel sed sapien. Mauris eget sapien nec leo vehicula posuere. Morbi pulvinar lectus metus, sit amet dignissim neque cursus vitae. Sed elementum elementum lectus a viverra. Aliquam bibendum ligula vel malesuada tristique. Ut tellus arcu, sodales eu feugiat ut, finibus quis urna. Nulla eleifend lorem quis risus mollis ullamcorper quis non ex. In dolor erat, commodo nec magna vitae, dapibus porttitor dolor. Sed consectetur fermentum velit, et pulvinar odio sagittis id. Suspendisse nulla sem, blandit id nisi a, aliquam elementum ligula. Pellentesque eu risus dictum, dapibus ex at, euismod urna. Nam nibh urna, efficitur ut eros vel, laoreet porta dolor.
+
+        Aliquam a blandit lacus, a scelerisque ante. Morbi et cursus sem. Vivamus euismod nisi non tellus dictum pretium. Vestibulum at venenatis nunc. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam efficitur nisi mi, porttitor feugiat nunc placerat non. Vivamus vel dictum urna, et mollis turpis. Vestibulum bibendum augue odio, et mollis elit finibus at. Maecenas a nisi eu purus lacinia vestibulum. Quisque non lorem commodo quam ornare porttitor. Nullam ac feugiat ex. Maecenas vel ultricies nunc. Phasellus auctor purus ut sapien finibus semper. Nulla efficitur velit orci, non malesuada odio vulputate vel. Pellentesque eget odio maximus enim porta venenatis eu sit amet est. Donec dolor arcu, sollicitudin nec mauris ut, maximus luctus urna.
+
+        Phasellus ut hendrerit quam, sit amet faucibus ante. Cras consequat aliquet ante vel gravida. Morbi pretium, lacus ac rutrum faucibus, lacus turpis imperdiet lorem, vel viverra ligula justo sed velit. Phasellus et tempor ipsum. Donec sed lacus massa. Integer dui lacus, accumsan sit amet tempor a, malesuada eu nunc. Etiam mi nunc, blandit eget quam id, tristique accumsan elit. Cras sit amet nisl tellus. Suspendisse potenti. Maecenas bibendum lorem sed fermentum finibus. Sed in elementum risus.
+    </string>
+</resources>
