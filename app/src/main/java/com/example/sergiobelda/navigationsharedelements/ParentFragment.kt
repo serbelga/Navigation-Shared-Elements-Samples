@@ -16,7 +16,9 @@ import kotlinx.android.synthetic.main.fragment_parent.*
  *
  */
 class ParentFragment : Fragment() {
-    val IMAGE_URI = "https://i.scdn.co/image/8d5eabf813797aa39f6e8186f702a1998d12fe40"
+    companion object {
+        const val IMAGE_URI = "https://i.scdn.co/image/8d5eabf813797aa39f6e8186f702a1998d12fe40"
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

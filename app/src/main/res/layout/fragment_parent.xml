@@ -12,11 +12,11 @@
             android:clickable="true"
             android:focusable="true"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintVertical_bias="0.060000002" app:layout_constraintHorizontal_bias="0.12">
+            app:layout_constraintBottom_toBottomOf="parent">
 
         <androidx.appcompat.widget.LinearLayoutCompat
                 android:layout_gravity="center"
@@ -38,13 +38,14 @@
                     android:layout_height="match_parent">
 
                 <TextView
-                        style="?attr/textAppearanceHeadline6"
+                        style="?textAppearanceHeadline6"
                         android:text="The Wall"
                         android:id="@+id/textView"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" android:fontFamily="@font/montserrat"/>
+                        android:layout_height="wrap_content"/>
+
                 <TextView
-                        style="?attr/textAppearanceCaption"
+                        style="?textAppearanceCaption"
                         android:text="Pink Floyd"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>

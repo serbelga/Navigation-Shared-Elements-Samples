@@ -18,8 +18,11 @@ import kotlinx.android.synthetic.main.fragment_detail.*
  *
  */
 class DetailFragment : Fragment() {
-    val IMAGE_URI = "https://i.scdn.co/image/8d5eabf813797aa39f6e8186f702a1998d12fe40"
-    val HEADER_IMAGE_URI = "https://i.scdn.co/image/dbaf7f3e34a1fc0f3ec6ae165b467ad6739e0c59"
+    companion object {
+        const val IMAGE_URI = "https://i.scdn.co/image/8d5eabf813797aa39f6e8186f702a1998d12fe40"
+        const val HEADER_IMAGE_URI = "https://i.scdn.co/image/dbaf7f3e34a1fc0f3ec6ae165b467ad6739e0c59"
+    }
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -39,7 +42,6 @@ class DetailFragment : Fragment() {
         val activity = activity as AppCompatActivity
         activity.setSupportActionBar(toolbar)
         activity.supportActionBar!!.setDisplayHomeAsUpEnabled(true)
-        //activity.setupActionBarWithNavController(findNavController())
         Glide.with(this).load(IMAGE_URI).into(imageView)
         Glide.with(this).load(HEADER_IMAGE_URI).into(headerImage)
     }
