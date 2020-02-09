@@ -1,4 +1,4 @@
-package com.example.sergiobelda.navigationsharedelements
+package com.example.sergiobelda.navigationsharedelements.ui.singleitemexample
 
 
 import android.os.Bundle
@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.FragmentNavigatorExtras
 import androidx.navigation.fragment.findNavController
 import com.bumptech.glide.Glide
+import com.example.sergiobelda.navigationsharedelements.R
 import kotlinx.android.synthetic.main.fragment_parent.*
 
 /**

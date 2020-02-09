@@ -14,4 +14,6 @@
 
         Phasellus ut hendrerit quam, sit amet faucibus ante. Cras consequat aliquet ante vel gravida. Morbi pretium, lacus ac rutrum faucibus, lacus turpis imperdiet lorem, vel viverra ligula justo sed velit. Phasellus et tempor ipsum. Donec sed lacus massa. Integer dui lacus, accumsan sit amet tempor a, malesuada eu nunc. Etiam mi nunc, blandit eget quam id, tristique accumsan elit. Cras sit amet nisl tellus. Suspendisse potenti. Maecenas bibendum lorem sed fermentum finibus. Sed in elementum risus.
     </string>
+    <string name="single_item_example">Single Item Example</string>
+    <string name="recyclerview_example">RecyclerView Example</string>
 </resources>

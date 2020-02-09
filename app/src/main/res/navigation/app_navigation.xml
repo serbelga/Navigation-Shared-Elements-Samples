@@ -2,14 +2,44 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:app="http://schemas.android.com/apk/res-auto"
             xmlns:tools="http://schemas.android.com/tools" android:id="@+id/app_navigation"
-            app:startDestination="@id/parentFragment">
+            app:startDestination="@id/startFragment">
 
     <fragment android:id="@+id/parentFragment"
-              android:name="com.example.sergiobelda.navigationsharedelements.ParentFragment"
+              android:name="com.example.sergiobelda.navigationsharedelements.ui.singleitemexample.ParentFragment"
               android:label="fragment_parent" tools:layout="@layout/fragment_parent">
         <action android:id="@+id/detailAction" app:destination="@id/detailFragment"/>
     </fragment>
     <fragment android:id="@+id/detailFragment"
-              android:name="com.example.sergiobelda.navigationsharedelements.DetailFragment"
+              android:name="com.example.sergiobelda.navigationsharedelements.ui.singleitemexample.DetailFragment"
               android:label="fragment_detail" tools:layout="@layout/fragment_detail"/>
+    <fragment
+            android:id="@+id/startFragment"
+            android:name="com.example.sergiobelda.navigationsharedelements.ui.StartFragment"
+            android:label="fragment_start"
+            tools:layout="@layout/fragment_start" >
+        <action
+                android:id="@+id/navToSingleItemExample"
+                app:destination="@id/parentFragment" />
+        <action
+                android:id="@+id/navToRecyclerView"
+                app:destination="@id/recyclerViewFragment" />
+    </fragment>
+    <fragment
+            android:id="@+id/recyclerViewFragment"
+            android:name="com.example.sergiobelda.navigationsharedelements.ui.recyclerviewexample.RecyclerViewFragment"
+            android:label="fragment_recycler_view"
+            tools:layout="@layout/fragment_recycler_view" >
+        <action
+                android:id="@+id/navToItemDetailFragment"
+                app:destination="@id/itemDetailFragment" />
+    </fragment>
+    <fragment
+            android:id="@+id/itemDetailFragment"
+            android:name="com.example.sergiobelda.navigationsharedelements.ui.recyclerviewexample.ItemDetailFragment"
+            android:label="fragment_item_detail"
+            tools:layout="@layout/fragment_item_detail" >
+        <argument
+                android:name="id"
+                app:argType="string" />
+    </fragment>
 </navigation>

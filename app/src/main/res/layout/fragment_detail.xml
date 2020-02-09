@@ -4,7 +4,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent" android:layout_height="match_parent"
-        tools:context=".DetailFragment" android:id="@+id/coordinatorLayout">
+        tools:context=".ui.singleitemexample.DetailFragment" android:id="@+id/coordinatorLayout">
 
     <com.google.android.material.appbar.AppBarLayout
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"

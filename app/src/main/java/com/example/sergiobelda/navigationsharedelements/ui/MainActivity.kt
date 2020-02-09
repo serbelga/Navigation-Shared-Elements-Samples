@@ -1,7 +1,9 @@
-package com.example.sergiobelda.navigationsharedelements
+package com.example.sergiobelda.navigationsharedelements.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.sergiobelda.navigationsharedelements.R
+import com.example.sergiobelda.navigationsharedelements.ui.recyclerviewexample.dummy.DummyContent
 
 class MainActivity : AppCompatActivity() {
 
