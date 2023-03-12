@@ -1,42 +1,45 @@
 package com.example.sergiobelda.navigationsharedelements.ui.singleitemexample
 
-
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.FragmentNavigatorExtras
 import androidx.navigation.fragment.findNavController
 import com.bumptech.glide.Glide
 import com.example.sergiobelda.navigationsharedelements.R
-import kotlinx.android.synthetic.main.fragment_parent.*
+import com.example.sergiobelda.navigationsharedelements.databinding.FragmentParentBinding
 
-/**
- * A simple [Fragment] subclass.
- *
- */
 class ParentFragment : Fragment() {
     companion object {
         const val IMAGE_URI = "https://i.scdn.co/image/8d5eabf813797aa39f6e8186f702a1998d12fe40"
     }
 
+    private var _binding: FragmentParentBinding? = null
+    private val binding get() = _binding!!
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_parent, container, false)
+    ): View {
+        _binding = FragmentParentBinding.inflate(inflater, container, false)
+        return binding.root
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        cardView.setOnClickListener{
+        binding.cardView.setOnClickListener {
             val extras = FragmentNavigatorExtras(
-                imageView to "imageView"
+                binding.imageView to "imageView"
             )
             findNavController().navigate(R.id.detailAction, null, null, extras)
         }
-        Glide.with(context!!).load(IMAGE_URI).centerCrop().into(imageView)
+        Glide.with(requireContext()).load(IMAGE_URI).centerCrop().into(binding.imageView)
     }
 }

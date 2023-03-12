@@ -1,34 +1,42 @@
 package com.example.sergiobelda.navigationsharedelements.ui
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-
 import com.example.sergiobelda.navigationsharedelements.R
-import kotlinx.android.synthetic.main.fragment_start.*
+import com.example.sergiobelda.navigationsharedelements.databinding.FragmentStartBinding
 
 /**
  * A simple [Fragment] subclass.
  */
 class StartFragment : Fragment() {
 
+    private var _binding: FragmentStartBinding? = null
+    private val binding get() = _binding!!
+
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
+        inflater: LayoutInflater,
+        container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_start, container, false)
+    ): View {
+        _binding = FragmentStartBinding.inflate(inflater, container, false)
+        return binding.root
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        single_item_button.setOnClickListener {
+        binding.singleItemButton.setOnClickListener {
             findNavController().navigate(R.id.navToSingleItemExample)
         }
-        recyclerview_button.setOnClickListener {
+        binding.recyclerviewButton.setOnClickListener {
             findNavController().navigate(R.id.navToRecyclerView)
         }
     }

@@ -1,13 +1,12 @@
 package com.example.sergiobelda.navigationsharedelements.ui.recyclerviewexample
 
-import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.recyclerview.widget.RecyclerView
 import com.example.sergiobelda.navigationsharedelements.R
-
 import com.example.sergiobelda.navigationsharedelements.ui.recyclerviewexample.dummy.DummyContent.DummyItem
 
 class RecyclerViewAdapter(
