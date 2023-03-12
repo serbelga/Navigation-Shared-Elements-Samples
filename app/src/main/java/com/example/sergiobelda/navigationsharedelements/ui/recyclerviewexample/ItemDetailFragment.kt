@@ -9,9 +9,6 @@ import androidx.navigation.fragment.navArgs
 import androidx.transition.TransitionInflater
 import com.example.sergiobelda.navigationsharedelements.databinding.FragmentItemDetailBinding
 
-/**
- * A simple [Fragment] subclass.
- */
 class ItemDetailFragment : Fragment() {
     private val args: ItemDetailFragmentArgs by navArgs()
 

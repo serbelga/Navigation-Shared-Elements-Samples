@@ -9,9 +9,6 @@ import androidx.navigation.fragment.findNavController
 import com.example.sergiobelda.navigationsharedelements.R
 import com.example.sergiobelda.navigationsharedelements.databinding.FragmentStartBinding
 
-/**
- * A simple [Fragment] subclass.
- */
 class StartFragment : Fragment() {
 
     private var _binding: FragmentStartBinding? = null
