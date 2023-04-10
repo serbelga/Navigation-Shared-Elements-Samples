@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "NavigationSharedElements"
+rootProject.name = "Navigation-Shared-Elements-Samples"
