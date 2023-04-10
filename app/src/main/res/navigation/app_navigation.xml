@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/parentFragment"
-        android:name="com.example.sergiobelda.navigationsharedelements.ui.singleitemexample.ParentFragment"
+        android:name="dev.sergiobelda.samples.navigation.sharedelements.ui.singleitemexample.ParentFragment"
         android:label="fragment_parent"
         tools:layout="@layout/fragment_parent">
         <action
@@ -16,12 +16,12 @@
     </fragment>
     <fragment
         android:id="@+id/detailFragment"
-        android:name="com.example.sergiobelda.navigationsharedelements.ui.singleitemexample.DetailFragment"
+        android:name="dev.sergiobelda.samples.navigation.sharedelements.ui.singleitemexample.DetailFragment"
         android:label="fragment_detail"
         tools:layout="@layout/fragment_detail" />
     <fragment
         android:id="@+id/startFragment"
-        android:name="com.example.sergiobelda.navigationsharedelements.ui.StartFragment"
+        android:name="dev.sergiobelda.samples.navigation.sharedelements.ui.StartFragment"
         android:label="fragment_start"
         tools:layout="@layout/fragment_start">
         <action
@@ -33,7 +33,7 @@
     </fragment>
     <fragment
         android:id="@+id/recyclerViewFragment"
-        android:name="com.example.sergiobelda.navigationsharedelements.ui.recyclerviewexample.RecyclerViewFragment"
+        android:name="dev.sergiobelda.samples.navigation.sharedelements.ui.recyclerviewexample.RecyclerViewFragment"
         android:label="fragment_recycler_view"
         tools:layout="@layout/fragment_recycler_view">
         <action
@@ -42,7 +42,7 @@
     </fragment>
     <fragment
         android:id="@+id/itemDetailFragment"
-        android:name="com.example.sergiobelda.navigationsharedelements.ui.recyclerviewexample.ItemDetailFragment"
+        android:name="dev.sergiobelda.samples.navigation.sharedelements.ui.recyclerviewexample.ItemDetailFragment"
         android:label="fragment_item_detail"
         tools:layout="@layout/fragment_item_detail">
         <argument

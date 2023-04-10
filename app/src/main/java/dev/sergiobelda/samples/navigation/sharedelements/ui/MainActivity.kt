@@ -1,8 +1,8 @@
-package com.example.sergiobelda.navigationsharedelements.ui
+package dev.sergiobelda.samples.navigation.sharedelements.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.sergiobelda.navigationsharedelements.R
+import dev.sergiobelda.samples.navigation.sharedelements.R
 
 class MainActivity : AppCompatActivity() {
 

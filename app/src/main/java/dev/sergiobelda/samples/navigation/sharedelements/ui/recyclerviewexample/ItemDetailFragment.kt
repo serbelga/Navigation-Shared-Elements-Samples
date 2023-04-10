@@ -1,4 +1,4 @@
-package com.example.sergiobelda.navigationsharedelements.ui.recyclerviewexample
+package dev.sergiobelda.samples.navigation.sharedelements.ui.recyclerviewexample
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.navArgs
 import androidx.transition.TransitionInflater
-import com.example.sergiobelda.navigationsharedelements.databinding.FragmentItemDetailBinding
+import dev.sergiobelda.samples.navigation.sharedelements.databinding.FragmentItemDetailBinding
 
 class ItemDetailFragment : Fragment() {
     private val args: ItemDetailFragmentArgs by navArgs()

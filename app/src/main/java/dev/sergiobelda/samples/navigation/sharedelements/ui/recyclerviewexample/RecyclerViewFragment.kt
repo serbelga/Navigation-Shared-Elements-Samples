@@ -1,4 +1,4 @@
-package com.example.sergiobelda.navigationsharedelements.ui.recyclerviewexample
+package dev.sergiobelda.samples.navigation.sharedelements.ui.recyclerviewexample
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,9 +10,9 @@ import androidx.navigation.fragment.FragmentNavigatorExtras
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.sergiobelda.navigationsharedelements.R
-import com.example.sergiobelda.navigationsharedelements.databinding.FragmentRecyclerViewBinding
-import com.example.sergiobelda.navigationsharedelements.ui.recyclerviewexample.dummy.DummyContent
+import dev.sergiobelda.samples.navigation.sharedelements.R
+import dev.sergiobelda.samples.navigation.sharedelements.databinding.FragmentRecyclerViewBinding
+import dev.sergiobelda.samples.navigation.sharedelements.ui.recyclerviewexample.dummy.DummyContent
 
 class RecyclerViewFragment : Fragment() {
     private val columnCount = 2

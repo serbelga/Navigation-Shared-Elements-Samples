@@ -1,4 +1,4 @@
-package com.example.sergiobelda.navigationsharedelements.ui.recyclerviewexample
+package dev.sergiobelda.samples.navigation.sharedelements.ui.recyclerviewexample
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,8 +6,8 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.sergiobelda.navigationsharedelements.R
-import com.example.sergiobelda.navigationsharedelements.ui.recyclerviewexample.dummy.DummyContent.DummyItem
+import dev.sergiobelda.samples.navigation.sharedelements.R
+import dev.sergiobelda.samples.navigation.sharedelements.ui.recyclerviewexample.dummy.DummyContent.DummyItem
 
 class RecyclerViewAdapter(
     private val items: List<DummyItem>

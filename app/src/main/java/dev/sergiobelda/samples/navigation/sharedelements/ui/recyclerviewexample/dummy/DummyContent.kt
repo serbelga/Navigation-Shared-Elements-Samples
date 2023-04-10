@@ -1,4 +1,4 @@
-package com.example.sergiobelda.navigationsharedelements.ui.recyclerviewexample.dummy
+package dev.sergiobelda.samples.navigation.sharedelements.ui.recyclerviewexample.dummy
 
 /**
  * Helper class for providing sample content for user interfaces created by

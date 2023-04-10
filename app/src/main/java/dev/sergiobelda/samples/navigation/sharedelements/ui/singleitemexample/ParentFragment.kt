@@ -1,4 +1,4 @@
-package com.example.sergiobelda.navigationsharedelements.ui.singleitemexample
+package dev.sergiobelda.samples.navigation.sharedelements.ui.singleitemexample
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,8 +8,8 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.FragmentNavigatorExtras
 import androidx.navigation.fragment.findNavController
 import com.bumptech.glide.Glide
-import com.example.sergiobelda.navigationsharedelements.R
-import com.example.sergiobelda.navigationsharedelements.databinding.FragmentParentBinding
+import dev.sergiobelda.samples.navigation.sharedelements.R
+import dev.sergiobelda.samples.navigation.sharedelements.databinding.FragmentParentBinding
 
 class ParentFragment : Fragment() {
     companion object {

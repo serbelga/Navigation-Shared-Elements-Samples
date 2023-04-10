@@ -5,7 +5,7 @@ apply plugin: 'androidx.navigation.safeargs.kotlin'
 android {
     compileSdkVersion 33
     defaultConfig {
-        applicationId "com.example.sergiobelda.navigationsharedelements"
+        applicationId "dev.sergiobelda.samples.navigation.sharedelements"
         minSdkVersion 23
         targetSdkVersion 33
         versionCode 1
@@ -28,7 +28,7 @@ android {
     buildFeatures {
         viewBinding true
     }
-    namespace 'com.example.sergiobelda.navigationsharedelements'
+    namespace 'dev.sergiobelda.samples.navigation.sharedelements'
 }
 
 dependencies {

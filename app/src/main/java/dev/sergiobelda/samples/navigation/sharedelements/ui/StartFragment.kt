@@ -1,4 +1,4 @@
-package com.example.sergiobelda.navigationsharedelements.ui
+package dev.sergiobelda.samples.navigation.sharedelements.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,8 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import com.example.sergiobelda.navigationsharedelements.R
-import com.example.sergiobelda.navigationsharedelements.databinding.FragmentStartBinding
+import dev.sergiobelda.samples.navigation.sharedelements.R
+import dev.sergiobelda.samples.navigation.sharedelements.databinding.FragmentStartBinding
 
 class StartFragment : Fragment() {
 
