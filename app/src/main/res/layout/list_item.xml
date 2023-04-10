@@ -7,9 +7,9 @@
 
     <ImageView
         android:id="@+id/item_image"
-        android:src="?colorPrimary"
         android:layout_width="120dp"
-        android:layout_height="120dp" />
+        android:layout_height="120dp"
+        android:src="?colorPrimary" />
 
     <TextView
         android:id="@+id/item_name"
