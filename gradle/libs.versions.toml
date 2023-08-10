@@ -1,0 +1,10 @@
+[versions]
+androidGradlePlugin = "8.2.0-alpha15"
+kotlin = "1.9.0"
+navigation = "2.7.0"
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "androidGradlePlugin" }
+androidLibrary = { id = "com.android.library", version.ref = "androidGradlePlugin" }
+kotlin = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+navigationSafeArgs = { id = "androidx.navigation.safeargs.kotlin", version.ref = "navigation" }
