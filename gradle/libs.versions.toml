@@ -1,5 +1,5 @@
 [versions]
-androidGradlePlugin = "8.2.0-alpha15"
+androidGradlePlugin = "8.2.1"
 appcompat = "1.6.1"
 constraintlayout = "2.1.4"
 coreKtx = "1.12.0"
@@ -10,7 +10,7 @@ kotlin = "1.9.22"
 material = "1.11.0"
 navigation = "2.7.6"
 navigationFragmentKtx = "2.7.6"
-recyclerview = "1.3.1"
+recyclerview = "1.3.2"
 runner = "1.5.2"
 
 [libraries]
