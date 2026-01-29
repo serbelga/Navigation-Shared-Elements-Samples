@@ -9,7 +9,7 @@ junit = "4.13.2"
 kotlin = "2.3.0"
 material = "1.13.0"
 navigation = "2.9.7"
-navigationFragmentKtx = "2.9.6"
+navigationFragmentKtx = "2.9.7"
 recyclerview = "1.4.0"
 runner = "1.7.0"
 
