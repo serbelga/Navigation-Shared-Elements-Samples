@@ -1,5 +1,5 @@
 [versions]
-androidGradlePlugin = "9.0.1"
+androidGradlePlugin = "9.1.0"
 appcompat = "1.7.1"
 constraintlayout = "2.2.1"
 coreKtx = "1.17.0"
