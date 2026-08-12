@@ -1,6 +1,6 @@
 [versions]
 androidGradlePlugin = "9.3.1"
-appcompat = "1.7.1"
+appcompat = "1.8.0"
 constraintlayout = "2.2.2"
 coreKtx = "1.19.0"
 espressoCore = "3.7.0"
