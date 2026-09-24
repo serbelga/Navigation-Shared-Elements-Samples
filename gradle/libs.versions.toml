@@ -2,7 +2,7 @@
 androidGradlePlugin = "9.4.1"
 appcompat = "1.8.0"
 constraintlayout = "2.2.2"
-coreKtx = "1.19.0"
+coreKtx = "1.19.1"
 espressoCore = "3.7.0"
 glide = "5.0.9"
 junit = "4.13.2"
